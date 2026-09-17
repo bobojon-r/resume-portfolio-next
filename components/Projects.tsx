@@ -1,9 +1,13 @@
-import { data } from "@/lib/data";
+"use client";
+
+import { content } from "@/lib/data";
+import { useLanguage } from "./LanguageProvider";
 
 export function Projects() {
+  const { locale } = useLanguage();
   return (
     <div id="projects" className="grid gap-4">
-      {data.projects.map((p) => (
+      {content[locale].projects.map((p) => (
         <article
           key={p.title}
           className="card transition-shadow hover:shadow-md"
@@ -13,11 +17,6 @@ export function Projects() {
           <div className="mt-3 flex gap-2 flex-wrap">
             {p.stack.map((s) => <span key={s} className="tag">{s}</span>)}
           </div>
-          {p.link && (
-            <a className="link mt-3 inline-block" href={p.link} target="_blank" rel="noreferrer">
-              Ссылка
-            </a>
-          )}
         </article>
       ))}
     </div>
