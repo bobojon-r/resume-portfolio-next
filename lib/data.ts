@@ -15,7 +15,7 @@ export const profile = {
 export const content = {
   ru: {
     resume: "Резюме",
-    summary: "Backend-разработчик с 4+ годами опыта в создании сервисов, автоматизации процессов и интеграций. Проектирую архитектуру, реализую бизнес-логику и API, работаю с базами данных и довожу задачи до production.",
+    summary: "Software Engineer с 4+ годами опыта в разработке. Создаю backend-сервисы на Python: проектирую архитектуру, реализую бизнес-логику и API, работаю с базами данных и автоматизирую процессы. Беру задачу от идеи до надёжного production-решения.",
     nav: { experience: "Опыт", skills: "Навыки", projects: "Проекты", contact: "Контакты" },
     headings: { experience: "Опыт работы", skills: "Навыки", projects: "Проекты", contact: "Связаться", education: "Образование и языки", languages: "Языки" },
     experience: [
@@ -33,7 +33,7 @@ export const content = {
   },
   en: {
     resume: "Resume",
-    summary: "Backend developer with 4+ years of experience building services, automating processes, and delivering integrations. I design architecture, implement business logic and APIs, work with databases, and take products through to production.",
+    summary: "Software Engineer with 4+ years of development experience. I build Python backend services, design architecture, implement business logic and APIs, work with databases, and automate processes. I take products from idea to reliable production solutions.",
     nav: { experience: "Experience", skills: "Skills", projects: "Projects", contact: "Contact" },
     headings: { experience: "Work experience", skills: "Skills", projects: "Projects", contact: "Get in touch", education: "Education & languages", languages: "Languages" },
     experience: [
