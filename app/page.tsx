@@ -14,7 +14,7 @@ export default function Page() {
   return <main>
     <section className="section">
       <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center">
-        <Image src="/avatar.svg" alt={`Photo of ${profile.name}`} width={96} height={96} className="rounded-full border border-neutral-300 dark:border-neutral-800" />
+        <Image src="/avatar.jpg" alt={`Photo of ${profile.name}`} width={96} height={96} className="rounded-full border border-neutral-300 dark:border-neutral-800" />
         <div>
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">{copy.resume}</p>
           <h1 className="mt-2 text-3xl font-semibold tracking-tight md:text-5xl">{profile.name}</h1>
